@@ -1,7 +1,32 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      "body-font": [
+        "Whitney",
+        '"Helvetica Neue"',
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+      ],
+      "header-font": [
+        "Poppins",
+        "Ginto",
+        '"Helvetica Neue"',
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+      ],
+    },
+    extend: {
+      colors: {},
+      keyframes: {
+        showme: {
+          "0%": { opacity: "0", transform: "translateY(50px)" },
+          "100%": { opacity: "1", transform: "translateY(0px)" },
+        },
+      },
+    },
   },
   plugins: [],
 };
