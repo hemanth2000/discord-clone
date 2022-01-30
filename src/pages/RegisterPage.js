@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function RegisterPage(props) {
   return (
     <div className='bg-[url("/assets/login_bg.svg")] bg-cover w-screen h-screen flex justify-center items-center'>
-      <div className="flex flex-col w-[35%] bg-[#36393f] p-5 rounded">
+      <div className="flex flex-col w-[35%] bg-[#36393f] p-5 rounded animate-[pushdown_0.5s_ease-in-out_1]">
         <h3 className="text-white text-center mb-1 font-bold">Welcome back!</h3>
         <div className="w-full flex flex-col">
           {["Email", "Username", "Password"].map((text) => (
@@ -19,7 +19,10 @@ function RegisterPage(props) {
             <p className="uppercase text-[#b9bbbe] mt-1 text-[9px] font-bold">
               DATE OF BIRTH
             </p>
-            <input className="bg-[#303339] text-[#b9bbbe] text-[12px] w-full rounded-sm px-1 py-[5px] my-1 border-[1px] transition-colors outline-none border-[#23272a] hover:border-black focus:border-[hsl(197,100%,47.8%)]" />
+            <input
+              type="date"
+              className="bg-[#303339] text-[#b9bbbe] text-[12px] w-full rounded-sm px-1 py-[5px] my-1 border-[1px] transition-colors outline-none border-[#23272a] hover:border-black focus:border-[hsl(197,100%,47.8%)]"
+            />
           </div>
           <button
             type="submit"

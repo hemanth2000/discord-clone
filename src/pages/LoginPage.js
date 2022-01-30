@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function LoginPage(props) {
   return (
     <div className='bg-[url("/assets/login_bg.svg")] bg-cover w-screen h-screen flex justify-center items-center'>
-      <div className="flex w-3/5 bg-[#36393f] p-5 rounded">
+      <div className="flex w-3/5 bg-[#36393f] p-5 rounded animate-[pushdown_0.5s_ease-in-out_1]">
         <div className="form-div w-3/5 flex flex-col">
           <h3 className="text-white text-center mb-1 font-bold">
             Welcome back!

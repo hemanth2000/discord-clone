@@ -4,8 +4,8 @@ import discordlogo from "../assets/discord_biglogo.svg";
 function Navbar(props) {
   return (
     <nav className="w-full flex justify-around items-center  pt-4">
-      <span className="text-[#fff]">
-        <img src={discordlogo} alt="discord_logo" />
+      <span className="text-[white] w-[100px]">
+        <img src={discordlogo} alt="discord_logo" className="w-full" />
       </span>
 
       <ul className="text-white  flex header-five">
