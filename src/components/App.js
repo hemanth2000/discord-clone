@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { LandingPage, LoginPage, RegisterPage } from "../pages";
+import { LandingPage, LoginPage, RegisterPage, DashboardPage } from "../pages";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Route exact path="/" element={<LandingPage />}></Route>
         <Route exact path="/login" element={<LoginPage />}></Route>
         <Route exact path="/register" element={<RegisterPage />}></Route>
+        <Route exact path="/dashboard" element={<DashboardPage />}></Route>
       </Routes>
     </div>
   );

@@ -65,9 +65,9 @@ function LandingPage(props) {
               </div>
             </div>
 
-            <div className="flex items-center text-[14px]">
+            <div className="flex items-center text-[14px] text-black">
               <button className="flex bg-[#ffffff] hover:text-[#404eed] rounded-full px-3 py-3 hover:shadow-[#00000033] shadow-2xl">
-                <DwnIcon className="h-full" /> Download for Windows
+                <DwnIcon className="w-[20px]" /> Download for Windows
               </button>
 
               <button className="text-white ml-5 bg-[#23272a] rounded-full px-3 py-3 hover:bg-[#23272a]/90">
@@ -141,7 +141,7 @@ function LandingPage(props) {
           </div>
 
           <button className="flex bg-[#404eed] text-[white] text-[14px] hover:text-[#ffffff] rounded-full px-3 py-3 hover:bg-[#404eed]/60 hover:shadow-[#00000033] shadow-2xl">
-            <DwnIcon /> Download for Windows
+            <DwnIcon className="w-[20px]" /> Download for Windows
           </button>
         </div>
       </section>
